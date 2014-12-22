@@ -1,0 +1,486 @@
+v 20140308 2
+C 49900 51300 1 0 0 tlc59281-1.sym
+{
+T 51700 59100 5 10 1 1 0 6 1
+refdes=U1
+T 50300 59300 5 10 0 0 0 0 1
+device=TLC59281
+T 50300 59500 5 10 0 0 0 0 1
+footprint=QSOP24_MO137AE
+}
+C 56200 57100 1 0 0 header10-2.sym
+{
+T 56200 59100 5 10 0 1 0 0 1
+device=HEADER10
+T 56800 59200 5 10 1 1 0 0 1
+refdes=J1
+T 56200 57100 5 10 1 1 0 0 1
+footprint=Box_header_100mil_notch_5x2
+}
+C 57900 57200 1 90 0 gnd-1.sym
+C 54800 58800 1 0 0 input-long-1.sym
+{
+T 54800 59050 5 10 0 0 0 0 1
+net=OUT0:1
+T 55400 59500 5 10 0 0 0 0 1
+device=none
+T 55900 58900 5 10 1 1 0 7 1
+value=OUT0
+}
+C 54800 58400 1 0 0 input-long-1.sym
+{
+T 54800 58650 5 10 0 0 0 0 1
+net=OUT2:1
+T 55400 59100 5 10 0 0 0 0 1
+device=none
+T 55900 58500 5 10 1 1 0 7 1
+value=OUT2
+}
+C 54800 58000 1 0 0 input-long-1.sym
+{
+T 54800 58250 5 10 0 0 0 0 1
+net=OUT4:1
+T 55400 58700 5 10 0 0 0 0 1
+device=none
+T 55900 58100 5 10 1 1 0 7 1
+value=OUT4
+}
+C 54800 57600 1 0 0 input-long-1.sym
+{
+T 54800 57850 5 10 0 0 0 0 1
+net=OUT6:1
+T 55400 58300 5 10 0 0 0 0 1
+device=none
+T 55900 57700 5 10 1 1 0 7 1
+value=OUT6
+}
+C 59000 58800 1 0 1 input-long-1.sym
+{
+T 59000 59050 5 10 0 0 0 6 1
+net=OUT1:1
+T 58400 59500 5 10 0 0 0 6 1
+device=none
+T 57900 58900 5 10 1 1 0 1 1
+value=OUT1
+}
+C 59000 58400 1 0 1 input-long-1.sym
+{
+T 59000 58650 5 10 0 0 0 6 1
+net=OUT3:1
+T 58400 59100 5 10 0 0 0 6 1
+device=none
+T 57900 58500 5 10 1 1 0 1 1
+value=OUT3
+}
+C 59000 58000 1 0 1 input-long-1.sym
+{
+T 59000 58250 5 10 0 0 0 6 1
+net=OUT5:1
+T 58400 58700 5 10 0 0 0 6 1
+device=none
+T 57900 58100 5 10 1 1 0 1 1
+value=OUT5
+}
+C 59000 57600 1 0 1 input-long-1.sym
+{
+T 59000 57850 5 10 0 0 0 6 1
+net=OUT7:1
+T 58400 58300 5 10 0 0 0 6 1
+device=none
+T 57900 57700 5 10 1 1 0 1 1
+value=OUT7
+}
+C 56200 54500 1 0 0 header10-2.sym
+{
+T 56200 56500 5 10 0 1 0 0 1
+device=HEADER10
+T 56800 56600 5 10 1 1 0 0 1
+refdes=J2
+T 56200 54500 5 10 1 1 0 0 1
+footprint=Box_header_100mil_notch_5x2
+}
+C 57900 54600 1 90 0 gnd-1.sym
+C 54800 56200 1 0 0 input-long-1.sym
+{
+T 54800 56450 5 10 0 0 0 0 1
+net=OUT8:1
+T 55400 56900 5 10 0 0 0 0 1
+device=none
+T 55900 56300 5 10 1 1 0 7 1
+value=OUT8
+}
+C 54800 55800 1 0 0 input-long-1.sym
+{
+T 54800 56050 5 10 0 0 0 0 1
+net=OUT10:1
+T 55400 56500 5 10 0 0 0 0 1
+device=none
+T 55900 55900 5 10 1 1 0 7 1
+value=OUT10
+}
+C 54800 55400 1 0 0 input-long-1.sym
+{
+T 54800 55650 5 10 0 0 0 0 1
+net=OUT12:1
+T 55400 56100 5 10 0 0 0 0 1
+device=none
+T 55900 55500 5 10 1 1 0 7 1
+value=OUT12
+}
+C 54800 55000 1 0 0 input-long-1.sym
+{
+T 54800 55250 5 10 0 0 0 0 1
+net=OUT14:1
+T 55400 55700 5 10 0 0 0 0 1
+device=none
+T 55900 55100 5 10 1 1 0 7 1
+value=OUT14
+}
+C 59000 56200 1 0 1 input-long-1.sym
+{
+T 59000 56450 5 10 0 0 0 6 1
+net=OUT9:1
+T 58400 56900 5 10 0 0 0 6 1
+device=none
+T 57900 56300 5 10 1 1 0 1 1
+value=OUT9
+}
+C 59000 55800 1 0 1 input-long-1.sym
+{
+T 59000 56050 5 10 0 0 0 6 1
+net=OUT11:1
+T 58400 56500 5 10 0 0 0 6 1
+device=none
+T 57900 55900 5 10 1 1 0 1 1
+value=OUT11
+}
+C 59000 55400 1 0 1 input-long-1.sym
+{
+T 59000 55650 5 10 0 0 0 6 1
+net=OUT13:1
+T 58400 56100 5 10 0 0 0 6 1
+device=none
+T 57900 55500 5 10 1 1 0 1 1
+value=OUT13
+}
+C 59000 55000 1 0 1 input-long-1.sym
+{
+T 59000 55250 5 10 0 0 0 6 1
+net=OUT15:1
+T 58400 55700 5 10 0 0 0 6 1
+device=none
+T 57900 55100 5 10 1 1 0 1 1
+value=OUT15
+}
+C 52000 57700 1 0 0 output-long-1.sym
+{
+T 52200 57950 5 10 0 0 0 0 1
+net=OUT0:1
+T 52200 58400 5 10 0 0 0 0 1
+device=none
+T 52300 57800 5 10 1 1 0 1 1
+value=OUT0
+}
+C 52000 57300 1 0 0 output-long-1.sym
+{
+T 52200 57550 5 10 0 0 0 0 1
+net=OUT1:1
+T 52200 58000 5 10 0 0 0 0 1
+device=none
+T 52300 57400 5 10 1 1 0 1 1
+value=OUT1
+}
+C 52000 56900 1 0 0 output-long-1.sym
+{
+T 52200 57150 5 10 0 0 0 0 1
+net=OUT2:1
+T 52200 57600 5 10 0 0 0 0 1
+device=none
+T 52300 57000 5 10 1 1 0 1 1
+value=OUT2
+}
+C 52000 56500 1 0 0 output-long-1.sym
+{
+T 52200 56750 5 10 0 0 0 0 1
+net=OUT3:1
+T 52200 57200 5 10 0 0 0 0 1
+device=none
+T 52300 56600 5 10 1 1 0 1 1
+value=OUT3
+}
+C 52000 56100 1 0 0 output-long-1.sym
+{
+T 52200 56350 5 10 0 0 0 0 1
+net=OUT4:1
+T 52200 56800 5 10 0 0 0 0 1
+device=none
+T 52300 56200 5 10 1 1 0 1 1
+value=OUT4
+}
+C 52000 55700 1 0 0 output-long-1.sym
+{
+T 52200 55950 5 10 0 0 0 0 1
+net=OUT5:1
+T 52200 56400 5 10 0 0 0 0 1
+device=none
+T 52300 55800 5 10 1 1 0 1 1
+value=OUT5
+}
+C 52000 55300 1 0 0 output-long-1.sym
+{
+T 52200 55550 5 10 0 0 0 0 1
+net=OUT6:1
+T 52200 56000 5 10 0 0 0 0 1
+device=none
+T 52300 55400 5 10 1 1 0 1 1
+value=OUT6
+}
+C 52000 54900 1 0 0 output-long-1.sym
+{
+T 52200 55150 5 10 0 0 0 0 1
+net=OUT7:1
+T 52200 55600 5 10 0 0 0 0 1
+device=none
+T 52300 55000 5 10 1 1 0 1 1
+value=OUT7
+}
+C 52000 54500 1 0 0 output-long-1.sym
+{
+T 52200 54750 5 10 0 0 0 0 1
+net=OUT8:1
+T 52200 55200 5 10 0 0 0 0 1
+device=none
+T 52300 54600 5 10 1 1 0 1 1
+value=OUT8
+}
+C 52000 54100 1 0 0 output-long-1.sym
+{
+T 52200 54350 5 10 0 0 0 0 1
+net=OUT9:1
+T 52200 54800 5 10 0 0 0 0 1
+device=none
+T 52300 54200 5 10 1 1 0 1 1
+value=OUT9
+}
+C 52000 53700 1 0 0 output-long-1.sym
+{
+T 52200 53950 5 10 0 0 0 0 1
+net=OUT10:1
+T 52200 54400 5 10 0 0 0 0 1
+device=none
+T 52300 53800 5 10 1 1 0 1 1
+value=OUT10
+}
+C 52000 53300 1 0 0 output-long-1.sym
+{
+T 52200 53550 5 10 0 0 0 0 1
+net=OUT11:1
+T 52200 54000 5 10 0 0 0 0 1
+device=none
+T 52300 53400 5 10 1 1 0 1 1
+value=OUT11
+}
+C 52000 52900 1 0 0 output-long-1.sym
+{
+T 52200 53150 5 10 0 0 0 0 1
+net=OUT12:1
+T 52200 53600 5 10 0 0 0 0 1
+device=none
+T 52300 53000 5 10 1 1 0 1 1
+value=OUT12
+}
+C 52000 52500 1 0 0 output-long-1.sym
+{
+T 52200 52750 5 10 0 0 0 0 1
+net=OUT13:1
+T 52200 53200 5 10 0 0 0 0 1
+device=none
+T 52300 52600 5 10 1 1 0 1 1
+value=OUT13
+}
+C 52000 52100 1 0 0 output-long-1.sym
+{
+T 52200 52350 5 10 0 0 0 0 1
+net=OUT14:1
+T 52200 52800 5 10 0 0 0 0 1
+device=none
+T 52300 52200 5 10 1 1 0 1 1
+value=OUT14
+}
+C 52000 51700 1 0 0 output-long-1.sym
+{
+T 52200 51950 5 10 0 0 0 0 1
+net=OUT15:1
+T 52200 52400 5 10 0 0 0 0 1
+device=none
+T 52300 51800 5 10 1 1 0 1 1
+value=OUT15
+}
+C 55900 51600 1 270 0 vcc-1.sym
+C 55900 51600 1 0 0 output-long-1.sym
+{
+T 56100 51850 5 10 0 0 0 0 1
+net=MOSI:1
+T 56100 52300 5 10 0 0 0 0 1
+device=none
+T 56200 51700 5 10 1 1 0 1 1
+value=MOSI
+}
+C 55900 51000 1 0 0 output-long-1.sym
+{
+T 56100 51250 5 10 0 0 0 0 1
+net=CLOCK:1
+T 56100 51700 5 10 0 0 0 0 1
+device=none
+T 56200 51100 5 10 1 1 0 1 1
+value=CLOCK
+}
+C 55900 50400 1 0 0 output-long-1.sym
+{
+T 56100 50650 5 10 0 0 0 0 1
+net=LATCH:1
+T 56100 51100 5 10 0 0 0 0 1
+device=none
+T 56200 50500 5 10 1 1 0 1 1
+value=LATCH
+}
+C 55900 50100 1 0 0 output-long-1.sym
+{
+T 56100 50350 5 10 0 0 0 0 1
+net=BLANK:1
+T 56100 50800 5 10 0 0 0 0 1
+device=none
+T 56200 50200 5 10 1 1 0 1 1
+value=BLANK
+}
+C 56200 50700 1 90 0 gnd-1.sym
+C 57500 51600 1 0 0 input-long-1.sym
+{
+T 57500 51850 5 10 0 0 0 0 1
+net=MISO:1
+T 58100 52300 5 10 0 0 0 0 1
+device=none
+T 58600 51700 5 10 1 1 0 7 1
+value=MISO
+}
+C 57500 51000 1 0 0 input-long-1.sym
+{
+T 57500 51250 5 10 0 0 0 0 1
+net=CLOCK:1
+T 58100 51700 5 10 0 0 0 0 1
+device=none
+T 58600 51100 5 10 1 1 0 7 1
+value=CLOCK
+}
+C 57500 50400 1 0 0 input-long-1.sym
+{
+T 57500 50650 5 10 0 0 0 0 1
+net=LATCH:1
+T 58100 51100 5 10 0 0 0 0 1
+device=none
+T 58600 50500 5 10 1 1 0 7 1
+value=LATCH
+}
+C 57500 50100 1 0 0 input-long-1.sym
+{
+T 57500 50350 5 10 0 0 0 0 1
+net=BLANK:1
+T 58100 50800 5 10 0 0 0 0 1
+device=none
+T 58600 50200 5 10 1 1 0 7 1
+value=BLANK
+}
+C 58900 51600 1 90 1 vcc-1.sym
+C 58600 50700 1 270 1 gnd-1.sym
+C 48600 58500 1 0 0 input-long-1.sym
+{
+T 48600 58750 5 10 0 0 0 0 1
+net=MOSI:1
+T 49200 59200 5 10 0 0 0 0 1
+device=none
+T 49700 58600 5 10 1 1 0 7 1
+value=MOSI
+}
+C 48600 58100 1 0 0 input-long-1.sym
+{
+T 48600 58350 5 10 0 0 0 0 1
+net=CLOCK:1
+T 49200 58800 5 10 0 0 0 0 1
+device=none
+T 49700 58200 5 10 1 1 0 7 1
+value=CLOCK
+}
+C 48600 57700 1 0 0 input-long-1.sym
+{
+T 48600 57950 5 10 0 0 0 0 1
+net=LATCH:1
+T 49200 58400 5 10 0 0 0 0 1
+device=none
+T 49700 57800 5 10 1 1 0 7 1
+value=LATCH
+}
+C 48600 56900 1 0 0 input-long-1.sym
+{
+T 48600 57150 5 10 0 0 0 0 1
+net=BLANK:1
+T 49200 57600 5 10 0 0 0 0 1
+device=none
+T 49700 57000 5 10 1 1 0 7 1
+value=BLANK
+}
+C 52000 58500 1 0 0 output-long-1.sym
+{
+T 52200 58750 5 10 0 0 0 0 1
+net=MISO:1
+T 52200 59200 5 10 0 0 0 0 1
+device=none
+T 52300 58600 5 10 1 1 0 1 1
+value=MISO
+}
+C 50200 51800 1 90 1 resistor-600mil-1.sym
+{
+T 49700 51500 5 10 0 0 270 2 1
+device=RESISTOR
+T 49800 51500 5 10 1 1 0 6 1
+refdes=R1
+T 49800 51300 5 10 1 1 0 6 1
+value=2.52K
+T 50200 51800 5 10 1 1 0 0 1
+footprint=0603
+}
+C 56900 52500 1 270 1 capacitor-600mil-1.sym
+{
+T 57700 52700 5 10 0 0 90 2 1
+device=CAPACITOR
+T 56900 52800 5 10 1 1 180 2 1
+refdes=C1
+T 56900 52600 5 10 1 1 180 2 1
+value=0.1µF
+T 57900 52700 5 10 0 0 90 2 1
+symversion=0.1
+T 56900 52500 5 10 1 1 0 0 1
+footprint=0603
+}
+C 49900 50900 1 0 0 gnd-1.sym
+C 57000 52200 1 0 0 gnd-1.sym
+C 56200 57500 1 90 1 vcc-1.sym
+C 56200 54900 1 90 1 vcc-1.sym
+C 57300 53100 1 0 1 vcc-1.sym
+C 54200 50000 1 0 0 connector6-1.sym
+{
+T 56000 51800 5 10 0 0 0 0 1
+device=CONNECTOR_6
+T 54300 52000 5 10 1 1 0 0 1
+refdes=CONN1
+T 54200 50000 5 10 1 1 0 0 1
+footprint=JUMPER6
+}
+C 60600 50000 1 0 1 connector6-1.sym
+{
+T 58800 51800 5 10 0 0 0 6 1
+device=CONNECTOR_6
+T 60500 52000 5 10 1 1 0 6 1
+refdes=CONN2
+T 60600 50000 5 10 1 1 0 0 1
+footprint=JUMPER6
+}
