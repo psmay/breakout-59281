@@ -1118,7 +1118,7 @@ Layer(9 "silk")
 	Text[652.50mil 850.00mil 2 75 "with constant-current" "clearline,onsolder"]
 	Text[620.50mil 900.00mil 2 75 "LED driver outputs" "clearline,onsolder"]
 	Text[625.50mil 975.00mil 2 75 "OSHW" "clearline,onsolder"]
-	Text[433.00mil 975.00mil 2 75 "hw.hfgk.us" "clearline,onsolder"]
+	Text[433.00mil 975.00mil 2 75 "hw.hgk.us" "clearline,onsolder"]
 	Text[235.00mil 1293.00mil 2 75 "0" "clearline,onsolder"]
 	Text[235.00mil 1061.00mil 2 75 "1" "clearline,onsolder"]
 	Text[335.00mil 1293.00mil 2 75 "2" "clearline,onsolder"]
